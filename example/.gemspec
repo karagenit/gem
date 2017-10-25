@@ -1,15 +1,15 @@
 Gem::Specification.new do |s|
-    s.name          = ''
+    s.name          = '' #FIXME
     s.version       = IO.read('version.txt')
     s.license       = 'MIT'
-    s.summary       = ''
-    s.description   = ''
-    s.homepage      = 'https://github.com/karagenit/'
+    s.summary       = '' #FIXME
+    s.description   = '' #FIXME
+    s.homepage      = 'https://github.com/karagenit/' #FIXME
     s.author        = 'Caleb Smith'
     s.email         = 'karagenit@outlook.com'
-    s.files         = ['lib/example.rb']
-    s.require_paths = ['lib/', 'bin/']
-    s.executables   << 'example'
+    s.files         = ['lib/example.rb'] #FIXME
+    s.require_paths = ['lib/', 'bin/'] #FIXME
+    s.executables   << 'example' #FIXME
     s.platform      = Gem::Platform::RUBY
 
     s.add_development_dependency 'rubocop',                     '~> 0.49'
