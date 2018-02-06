@@ -16,8 +16,8 @@ task :clean do
 end
 
 task :test do
-    sh "rubocop lib/example" #FIXME
     sh "./test/test-example.rb" #FIXME
+    sh "rubocop lib/example.rb" #FIXME
 end
 
 task :publish do
